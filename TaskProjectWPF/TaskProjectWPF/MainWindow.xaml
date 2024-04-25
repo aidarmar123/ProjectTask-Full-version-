@@ -1,0 +1,122 @@
+﻿<Window
+    x:Class="TaskProjectWPF.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:TaskProjectWPF"
+    xmlns:svg="http://sharpvectors.codeplex.com/svgc/"
+    mc:Ignorable="d"
+    Title="MainWindow"
+    MinHeight="550"
+    MinWidth="1000">
+    <Window.Resources>
+        <Style
+            TargetType="Button">
+            <Setter
+                Property="Margin"
+                Value="5" />
+        </Style>
+        <ControlTemplate
+            x:Key="NoMouseOverButtonTemplate"
+            TargetType="Button">
+            <Border
+                Background="{TemplateBinding Background}"
+                BorderBrush="{TemplateBinding BorderBrush}"
+                BorderThickness="{TemplateBinding BorderThickness}">
+                <ContentPresenter
+                    HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                    VerticalAlignment="{TemplateBinding VerticalContentAlignment}" />
+            </Border>
+
+            <ControlTemplate.Triggers>
+                <Trigger
+                    Property="IsEnabled"
+                    Value="False">
+                    <Setter
+                        Property="Background"
+                        Value="{x:Static SystemColors.ControlLightBrush}" />
+                    <Setter
+                        Property="Foreground"
+                        Value="{x:Static SystemColors.GrayTextBrush}" />
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+    </Window.Resources>
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition
+                 />
+            <ColumnDefinition
+                Width="13*" />
+        </Grid.ColumnDefinitions>
+        <StackPanel
+            Background="#0b2f53">
+            <Image
+                Source="/Images/app_icon.png"
+                Margin="10"
+                RenderOptions.BitmapScalingMode="Fant" />
+            <Button
+                Focusable="False"
+                x:Name="BDashboard"
+                Click="BDashboard_Click"
+                BorderThickness="0"
+                Background="Transparent">
+                <Image
+                    Source="/Images/app_dasboard_icon.png"
+                    Height="23"
+                    Width="23" />
+            </Button>
+            <Button
+                BorderThickness="0"
+                x:Name="BTasks"
+                Click="BTasks_Click"
+                Background="Transparent">
+                <Image
+                    Source="/Images/app_tasks_icon.png"
+                    Height="23"
+                    Width="23" />
+            </Button>
+            <Button
+                BorderThickness="0"
+                x:Name="BCalendar"
+                Click="BCalendar_Click"
+                Background="Transparent">
+                <Image
+                    Source="/Images/app_cal_icon.png"
+                    Stretch="Fill"
+                    Height="23"
+                    Width="23" />
+            </Button>
+            <ListView
+                HorizontalAlignment="Center"
+                x:Name="LBProject"
+                ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+                SelectionChanged="LBProject_SelectionChanged"
+                Background="Transparent"
+                BorderThickness="0">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Border
+                            Margin="10">
+                            
+                            <TextBlock
+                                Text="{Binding Abbr}"
+                                FontSize="28"
+
+                                Foreground="White" />
+                        </Border>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+        </StackPanel>
+
+        <Frame
+            x:Name="MainFrame"
+            Grid.Column="1"
+            NavigationUIVisibility="Hidden"/>
+
+    </Grid>
+</Window>

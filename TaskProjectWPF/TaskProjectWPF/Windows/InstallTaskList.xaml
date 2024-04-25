@@ -1,0 +1,27 @@
+﻿<Window x:Class="TaskProjectWPF.Windows.InstallTaskList"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TaskProjectWPF.Windows"
+        mc:Ignorable="d"
+        Title="InstallTaskList" Height="150" Width="300">
+    <StackPanel VerticalAlignment="Bottom">
+        <Button
+            x:Name="BJson"
+            Click="BJson_Click"
+            Content="Json" />
+        <Button
+            x:Name="BXml"
+            Click="BXml_Click"
+            Content="Xml" />
+        <Button
+            x:Name="BTxt"
+            Click="BTxt_Click"
+            Content="Txt" />
+        <Button
+            x:Name="BExcel"
+            Click="BExcel_Click"
+            Content="Excel" />
+    </StackPanel>
+</Window>

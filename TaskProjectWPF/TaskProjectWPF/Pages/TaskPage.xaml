@@ -1,0 +1,157 @@
+﻿<Page x:Class="TaskProjectWPF.Pages.TaskPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TaskProjectWPF.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="TaskPage">
+    <Page.Resources>
+        
+    </Page.Resources>
+    <Grid x:Name="Content">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition />
+            
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid Grid.ColumnSpan="2">
+            <Button
+                x:Name="BInstall"
+                Click="BInstall_Click"
+                Content="INStal" 
+                HorizontalAlignment="Left"/>
+            <TextBlock
+                HorizontalAlignment="Center"
+                Text="Список задач"
+                FontSize="20"/>
+
+            <TextBox
+                HorizontalAlignment="Right"
+                Width="200"
+                x:Name="TBTaskName"
+                TextChanged="TBTaskName_TextChanged">
+                <TextBox.Style>
+                    <Style
+                        TargetType="TextBox">
+                        <Style.Resources>
+                            <Style
+                                TargetType="Border">
+                                <Setter
+                                    Property="CornerRadius"
+                                    Value="5" />
+                            </Style>
+                        </Style.Resources>
+                    </Style>
+                </TextBox.Style>
+            </TextBox>            
+        </Grid>
+        
+        <ListView x:Name="LVTasks"
+                  Grid.Row="1"
+                  SelectionChanged="LVTasks_SelectionChanged">
+            <ListView.ItemContainerStyle>
+                <Style
+                    TargetType="ListViewItem">
+                    <Setter
+                        Property="HorizontalContentAlignment"
+                        Value="Stretch" />
+                </Style>
+            </ListView.ItemContainerStyle>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <WrapPanel>
+                        <TextBlock
+                            Text="{Binding ShortTitle, StringFormat='#{0}'}"
+                            Foreground="LightGray" 
+                            Width="100"/>
+                        <Border Width="100"
+                            CornerRadius="10"
+                            Background="{Binding TaskStatus.Color}">
+                            <TextBlock
+                                Text="{Binding TaskStatus.Name}" 
+                                HorizontalAlignment="Center"
+                                TextWrapping="Wrap"
+                                Foreground="White"/>
+                        </Border>
+                        <TextBlock
+                            Text="{Binding FullTitle}" />
+                        <TextBlock
+                            Text="{Binding Employee.middleName}" />
+                        <TextBlock
+                            HorizontalAlignment="Right"
+                            Text="{Binding Deadline}" />
+                        <Button>
+                            <Image
+                                Source="/Image/app_next_icon.png" />
+                        </Button>
+                        
+                    </WrapPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <Border
+            Margin="20"
+            Grid.Column="1"
+            Grid.Row="1"
+            Visibility="Collapsed"
+            x:Name="BContentTask">
+            <StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock
+                        Foreground="Gray"
+                        Text="{Binding ShortTitle, StringFormat='#{0}'}" />
+                    <TextBlock
+                        Text="{Binding FullTitle}" />
+                    <Border
+                        Width="100"
+                        CornerRadius="10"
+                        Background="{Binding TaskStatus.Color}">
+                        <TextBlock
+                            Text="{Binding TaskStatus.Name}"
+                            TextWrapping="Wrap"
+                            Foreground="White" />
+                    </Border>
+                </StackPanel>
+                <TextBlock
+                    Text="{Binding CreatedTime}" />
+                <TextBlock
+                    Text="{Binding Deadline, StringFormat='DeadLine dd.mm.yyyy'}" />
+                <TextBlock
+                    Text="Предшествующия задача" />
+                <TextBox Text=""/>
+                <TextBlock
+                    Text="{Binding StartActualTime}" />
+                <TextBox
+                    Text="{Binding Desription}" 
+                    Height="60"/>
+                <TextBlock
+                    Text="Исполнитель" />
+                <ComboBox
+                    x:Name="CBEmployee"
+                    DisplayMemberPath="Name"
+                    SelectedItem="{Binding Employee}" />
+                <TextBlock
+                    Text="Приложение" />
+                
+                <Button
+                    Content="Save"
+                    x:Name="Badd"
+                    Click="Badd_Click" />
+
+                <Button
+                    Content="Remove"
+                    x:Name="Remove"
+                    Click="Remove_Click" />
+
+
+            </StackPanel>
+            
+        </Border>
+    </Grid>
+</Page>

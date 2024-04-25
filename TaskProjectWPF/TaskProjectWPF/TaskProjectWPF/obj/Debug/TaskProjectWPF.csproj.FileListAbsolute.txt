@@ -1,0 +1,58 @@
+C:\Users\3D\Desktop\My works\TaskProjectWPF\TaskProjectWPF\bin\Debug\TaskProjectWPF.exe.config
+C:\Users\3D\Desktop\My works\TaskProjectWPF\TaskProjectWPF\bin\Debug\TaskProjectWPF.exe
+C:\Users\3D\Desktop\My works\TaskProjectWPF\TaskProjectWPF\bin\Debug\TaskProjectWPF.pdb
+C:\Users\3D\Desktop\My works\TaskProjectWPF\TaskProjectWPF\obj\Debug\TaskProjectWPF.csproj.AssemblyReference.cache
+C:\Users\3D\Desktop\My works\TaskProjectWPF\TaskProjectWPF\obj\Debug\MainWindow.g.cs
+C:\Users\3D\Desktop\My works\TaskProjectWPF\TaskProjectWPF\obj\Debug\App.g.cs
+C:\Users\3D\Desktop\My works\TaskProjectWPF\TaskProjectWPF\obj\Debug\TaskProjectWPF_MarkupCompile.cache
+C:\Users\3D\Desktop\My works\TaskProjectWPF\TaskProjectWPF\obj\Debug\TaskProjectWPF_MarkupCompile.lref
+C:\Users\3D\Desktop\My works\TaskProjectWPF\TaskProjectWPF\obj\Debug\MainWindow.baml
+C:\Users\3D\Desktop\My works\TaskProjectWPF\TaskProjectWPF\obj\Debug\TaskProjectWPF.g.resources
+C:\Users\3D\Desktop\My works\TaskProjectWPF\TaskProjectWPF\obj\Debug\TaskProjectWPF.Properties.Resources.resources
+C:\Users\3D\Desktop\My works\TaskProjectWPF\TaskProjectWPF\obj\Debug\TaskProjectWPF.csproj.GenerateResource.cache
+C:\Users\3D\Desktop\My works\TaskProjectWPF\TaskProjectWPF\obj\Debug\TaskProjectWPF.csproj.CoreCompileInputs.cache
+C:\Users\3D\Desktop\My works\TaskProjectWPF\TaskProjectWPF\obj\Debug\TaskProjectWPF.exe
+C:\Users\3D\Desktop\My works\TaskProjectWPF\TaskProjectWPF\obj\Debug\TaskProjectWPF.pdb
+C:\Users\3D\Desktop\My works\TaskProjectWPF\TaskProjectWPF\obj\Debug\Pages\CalendarPage.g.cs
+C:\Users\3D\Desktop\My works\TaskProjectWPF\TaskProjectWPF\obj\Debug\Pages\DashboardPage.g.cs
+C:\Users\3D\Desktop\ProjectsTasks\TaskProjectWPF\TaskProjectWPF\bin\Debug\TaskProjectWPF.exe.config
+C:\Users\3D\Desktop\ProjectsTasks\TaskProjectWPF\TaskProjectWPF\bin\Debug\TaskProjectWPF.exe
+C:\Users\3D\Desktop\ProjectsTasks\TaskProjectWPF\TaskProjectWPF\bin\Debug\TaskProjectWPF.pdb
+C:\Users\3D\Desktop\ProjectsTasks\TaskProjectWPF\TaskProjectWPF\bin\Debug\Newtonsoft.Json.dll
+C:\Users\3D\Desktop\ProjectsTasks\TaskProjectWPF\TaskProjectWPF\bin\Debug\Newtonsoft.Json.xml
+C:\Users\3D\Desktop\ProjectsTasks\TaskProjectWPF\TaskProjectWPF\obj\Debug\TaskProjectWPF.csproj.AssemblyReference.cache
+C:\Users\3D\Desktop\ProjectsTasks\TaskProjectWPF\TaskProjectWPF\obj\Debug\MainWindow.g.cs
+C:\Users\3D\Desktop\ProjectsTasks\TaskProjectWPF\TaskProjectWPF\obj\Debug\Pages\CalendarPage.g.cs
+C:\Users\3D\Desktop\ProjectsTasks\TaskProjectWPF\TaskProjectWPF\obj\Debug\Pages\DashboardPage.g.cs
+C:\Users\3D\Desktop\ProjectsTasks\TaskProjectWPF\TaskProjectWPF\obj\Debug\Pages\TaskPage.g.cs
+C:\Users\3D\Desktop\ProjectsTasks\TaskProjectWPF\TaskProjectWPF\obj\Debug\App.g.cs
+C:\Users\3D\Desktop\ProjectsTasks\TaskProjectWPF\TaskProjectWPF\obj\Debug\TaskProjectWPF_MarkupCompile.cache
+C:\Users\3D\Desktop\ProjectsTasks\TaskProjectWPF\TaskProjectWPF\obj\Debug\TaskProjectWPF_MarkupCompile.lref
+C:\Users\3D\Desktop\ProjectsTasks\TaskProjectWPF\TaskProjectWPF\obj\Debug\MainWindow.baml
+C:\Users\3D\Desktop\ProjectsTasks\TaskProjectWPF\TaskProjectWPF\obj\Debug\Pages\CalendarPage.baml
+C:\Users\3D\Desktop\ProjectsTasks\TaskProjectWPF\TaskProjectWPF\obj\Debug\Pages\DashboardPage.baml
+C:\Users\3D\Desktop\ProjectsTasks\TaskProjectWPF\TaskProjectWPF\obj\Debug\Pages\TaskPage.baml
+C:\Users\3D\Desktop\ProjectsTasks\TaskProjectWPF\TaskProjectWPF\obj\Debug\TaskProjectWPF.g.resources
+C:\Users\3D\Desktop\ProjectsTasks\TaskProjectWPF\TaskProjectWPF\obj\Debug\TaskProjectWPF.Properties.Resources.resources
+C:\Users\3D\Desktop\ProjectsTasks\TaskProjectWPF\TaskProjectWPF\obj\Debug\TaskProjectWPF.csproj.GenerateResource.cache
+C:\Users\3D\Desktop\ProjectsTasks\TaskProjectWPF\TaskProjectWPF\obj\Debug\TaskProjectWPF.csproj.CoreCompileInputs.cache
+C:\Users\3D\Desktop\ProjectsTasks\TaskProjectWPF\TaskProjectWPF\obj\Debug\TaskProj.4891B1F8.Up2Date
+C:\Users\3D\Desktop\ProjectsTasks\TaskProjectWPF\TaskProjectWPF\obj\Debug\TaskProjectWPF.exe
+C:\Users\3D\Desktop\ProjectsTasks\TaskProjectWPF\TaskProjectWPF\obj\Debug\TaskProjectWPF.pdb
+C:\Users\3D\Desktop\ProjectsTasks\TaskProjectWPF\TaskProjectWPF\obj\Debug\TaskProjectWPF_Content.g.cs
+C:\Users\3D\Desktop\ProjectsTasks\TaskProjectWPF\TaskProjectWPF\bin\Debug\SharpVectors.Converters.Wpf.dll
+C:\Users\3D\Desktop\ProjectsTasks\TaskProjectWPF\TaskProjectWPF\bin\Debug\SharpVectors.Core.dll
+C:\Users\3D\Desktop\ProjectsTasks\TaskProjectWPF\TaskProjectWPF\bin\Debug\SharpVectors.Css.dll
+C:\Users\3D\Desktop\ProjectsTasks\TaskProjectWPF\TaskProjectWPF\bin\Debug\SharpVectors.Dom.dll
+C:\Users\3D\Desktop\ProjectsTasks\TaskProjectWPF\TaskProjectWPF\bin\Debug\SharpVectors.Model.dll
+C:\Users\3D\Desktop\ProjectsTasks\TaskProjectWPF\TaskProjectWPF\bin\Debug\SharpVectors.Rendering.Gdi.dll
+C:\Users\3D\Desktop\ProjectsTasks\TaskProjectWPF\TaskProjectWPF\bin\Debug\SharpVectors.Rendering.Wpf.dll
+C:\Users\3D\Desktop\ProjectsTasks\TaskProjectWPF\TaskProjectWPF\bin\Debug\SharpVectors.Runtime.Wpf.dll
+C:\Users\3D\Desktop\ProjectsTasks\TaskProjectWPF\TaskProjectWPF\bin\Debug\SharpVectors.Converters.Wpf.xml
+C:\Users\3D\Desktop\ProjectsTasks\TaskProjectWPF\TaskProjectWPF\bin\Debug\SharpVectors.Core.xml
+C:\Users\3D\Desktop\ProjectsTasks\TaskProjectWPF\TaskProjectWPF\bin\Debug\SharpVectors.Css.xml
+C:\Users\3D\Desktop\ProjectsTasks\TaskProjectWPF\TaskProjectWPF\bin\Debug\SharpVectors.Dom.xml
+C:\Users\3D\Desktop\ProjectsTasks\TaskProjectWPF\TaskProjectWPF\bin\Debug\SharpVectors.Model.xml
+C:\Users\3D\Desktop\ProjectsTasks\TaskProjectWPF\TaskProjectWPF\bin\Debug\SharpVectors.Rendering.Gdi.xml
+C:\Users\3D\Desktop\ProjectsTasks\TaskProjectWPF\TaskProjectWPF\bin\Debug\SharpVectors.Rendering.Wpf.xml
+C:\Users\3D\Desktop\ProjectsTasks\TaskProjectWPF\TaskProjectWPF\bin\Debug\SharpVectors.Runtime.Wpf.xml

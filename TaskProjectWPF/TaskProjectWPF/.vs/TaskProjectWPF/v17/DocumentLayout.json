@@ -1,0 +1,372 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{016C3CC0-3C20-4277-8CF9-BA3B367D9C37}|TaskProjectWPF\\TaskProjectWPF.csproj|c:\\users\\3d\\desktop\\projectstasks\\taskprojectwpf\\taskprojectwpf\\pages\\calendarpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016C3CC0-3C20-4277-8CF9-BA3B367D9C37}|TaskProjectWPF\\TaskProjectWPF.csproj|solutionrelative:taskprojectwpf\\pages\\calendarpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016C3CC0-3C20-4277-8CF9-BA3B367D9C37}|TaskProjectWPF\\TaskProjectWPF.csproj|C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\taskprojectwpf\\pages\\calendarpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{016C3CC0-3C20-4277-8CF9-BA3B367D9C37}|TaskProjectWPF\\TaskProjectWPF.csproj|solutionrelative:taskprojectwpf\\pages\\calendarpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016C3CC0-3C20-4277-8CF9-BA3B367D9C37}|TaskProjectWPF\\TaskProjectWPF.csproj|C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\taskprojectwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016C3CC0-3C20-4277-8CF9-BA3B367D9C37}|TaskProjectWPF\\TaskProjectWPF.csproj|solutionrelative:taskprojectwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016C3CC0-3C20-4277-8CF9-BA3B367D9C37}|TaskProjectWPF\\TaskProjectWPF.csproj|c:\\users\\3d\\desktop\\projectstasks\\taskprojectwpf\\taskprojectwpf\\pages\\taskpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016C3CC0-3C20-4277-8CF9-BA3B367D9C37}|TaskProjectWPF\\TaskProjectWPF.csproj|solutionrelative:taskprojectwpf\\pages\\taskpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016C3CC0-3C20-4277-8CF9-BA3B367D9C37}|TaskProjectWPF\\TaskProjectWPF.csproj|C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\taskprojectwpf\\service\\netmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016C3CC0-3C20-4277-8CF9-BA3B367D9C37}|TaskProjectWPF\\TaskProjectWPF.csproj|solutionrelative:taskprojectwpf\\service\\netmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016C3CC0-3C20-4277-8CF9-BA3B367D9C37}|TaskProjectWPF\\TaskProjectWPF.csproj|C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\taskprojectwpf\\pages\\taskpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{016C3CC0-3C20-4277-8CF9-BA3B367D9C37}|TaskProjectWPF\\TaskProjectWPF.csproj|solutionrelative:taskprojectwpf\\pages\\taskpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016C3CC0-3C20-4277-8CF9-BA3B367D9C37}|TaskProjectWPF\\TaskProjectWPF.csproj|c:\\users\\3d\\desktop\\projectstasks\\taskprojectwpf\\taskprojectwpf\\models\\shedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016C3CC0-3C20-4277-8CF9-BA3B367D9C37}|TaskProjectWPF\\TaskProjectWPF.csproj|solutionrelative:taskprojectwpf\\models\\shedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016C3CC0-3C20-4277-8CF9-BA3B367D9C37}|TaskProjectWPF\\TaskProjectWPF.csproj|C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\taskprojectwpf\\service\\datainit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016C3CC0-3C20-4277-8CF9-BA3B367D9C37}|TaskProjectWPF\\TaskProjectWPF.csproj|solutionrelative:taskprojectwpf\\service\\datainit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016C3CC0-3C20-4277-8CF9-BA3B367D9C37}|TaskProjectWPF\\TaskProjectWPF.csproj|c:\\users\\3d\\desktop\\projectstasks\\taskprojectwpf\\taskprojectwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{016C3CC0-3C20-4277-8CF9-BA3B367D9C37}|TaskProjectWPF\\TaskProjectWPF.csproj|solutionrelative:taskprojectwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016C3CC0-3C20-4277-8CF9-BA3B367D9C37}|TaskProjectWPF\\TaskProjectWPF.csproj|c:\\users\\3d\\desktop\\projectstasks\\taskprojectwpf\\taskprojectwpf\\images\\app_cal_icon.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{016C3CC0-3C20-4277-8CF9-BA3B367D9C37}|TaskProjectWPF\\TaskProjectWPF.csproj|solutionrelative:taskprojectwpf\\images\\app_cal_icon.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016C3CC0-3C20-4277-8CF9-BA3B367D9C37}|TaskProjectWPF\\TaskProjectWPF.csproj|c:\\users\\3d\\desktop\\projectstasks\\taskprojectwpf\\taskprojectwpf\\images\\app_cal_icon.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{016C3CC0-3C20-4277-8CF9-BA3B367D9C37}|TaskProjectWPF\\TaskProjectWPF.csproj|solutionrelative:taskprojectwpf\\images\\app_cal_icon.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016C3CC0-3C20-4277-8CF9-BA3B367D9C37}|TaskProjectWPF\\TaskProjectWPF.csproj|c:\\users\\3d\\desktop\\projectstasks\\taskprojectwpf\\taskprojectwpf\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016C3CC0-3C20-4277-8CF9-BA3B367D9C37}|TaskProjectWPF\\TaskProjectWPF.csproj|solutionrelative:taskprojectwpf\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016C3CC0-3C20-4277-8CF9-BA3B367D9C37}|TaskProjectWPF\\TaskProjectWPF.csproj|c:\\users\\3d\\desktop\\projectstasks\\taskprojectwpf\\taskprojectwpf\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016C3CC0-3C20-4277-8CF9-BA3B367D9C37}|TaskProjectWPF\\TaskProjectWPF.csproj|solutionrelative:taskprojectwpf\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016C3CC0-3C20-4277-8CF9-BA3B367D9C37}|TaskProjectWPF\\TaskProjectWPF.csproj|c:\\users\\3d\\desktop\\projectstasks\\taskprojectwpf\\taskprojectwpf\\models\\partials\\taskstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016C3CC0-3C20-4277-8CF9-BA3B367D9C37}|TaskProjectWPF\\TaskProjectWPF.csproj|solutionrelative:taskprojectwpf\\models\\partials\\taskstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016C3CC0-3C20-4277-8CF9-BA3B367D9C37}|TaskProjectWPF\\TaskProjectWPF.csproj|c:\\users\\3d\\desktop\\projectstasks\\taskprojectwpf\\taskprojectwpf\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016C3CC0-3C20-4277-8CF9-BA3B367D9C37}|TaskProjectWPF\\TaskProjectWPF.csproj|solutionrelative:taskprojectwpf\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016C3CC0-3C20-4277-8CF9-BA3B367D9C37}|TaskProjectWPF\\TaskProjectWPF.csproj|c:\\users\\3d\\desktop\\projectstasks\\taskprojectwpf\\taskprojectwpf\\models\\taskstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016C3CC0-3C20-4277-8CF9-BA3B367D9C37}|TaskProjectWPF\\TaskProjectWPF.csproj|solutionrelative:taskprojectwpf\\models\\taskstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016C3CC0-3C20-4277-8CF9-BA3B367D9C37}|TaskProjectWPF\\TaskProjectWPF.csproj|c:\\users\\3d\\desktop\\projectstasks\\taskprojectwpf\\taskprojectwpf\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016C3CC0-3C20-4277-8CF9-BA3B367D9C37}|TaskProjectWPF\\TaskProjectWPF.csproj|solutionrelative:taskprojectwpf\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016C3CC0-3C20-4277-8CF9-BA3B367D9C37}|TaskProjectWPF\\TaskProjectWPF.csproj|c:\\users\\3d\\desktop\\projectstasks\\taskprojectwpf\\taskprojectwpf\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016C3CC0-3C20-4277-8CF9-BA3B367D9C37}|TaskProjectWPF\\TaskProjectWPF.csproj|solutionrelative:taskprojectwpf\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016C3CC0-3C20-4277-8CF9-BA3B367D9C37}|TaskProjectWPF\\TaskProjectWPF.csproj|c:\\users\\3d\\desktop\\projectstasks\\taskprojectwpf\\taskprojectwpf\\models\\linktask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016C3CC0-3C20-4277-8CF9-BA3B367D9C37}|TaskProjectWPF\\TaskProjectWPF.csproj|solutionrelative:taskprojectwpf\\models\\linktask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016C3CC0-3C20-4277-8CF9-BA3B367D9C37}|TaskProjectWPF\\TaskProjectWPF.csproj|C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\taskprojectwpf\\pages\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{016C3CC0-3C20-4277-8CF9-BA3B367D9C37}|TaskProjectWPF\\TaskProjectWPF.csproj|solutionrelative:taskprojectwpf\\pages\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016C3CC0-3C20-4277-8CF9-BA3B367D9C37}|TaskProjectWPF\\TaskProjectWPF.csproj|C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\taskprojectwpf\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{016C3CC0-3C20-4277-8CF9-BA3B367D9C37}|TaskProjectWPF\\TaskProjectWPF.csproj|solutionrelative:taskprojectwpf\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CalendarPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\TaskProjectWPF\\Pages\\CalendarPage.xaml.cs",
+              "RelativeDocumentMoniker": "TaskProjectWPF\\Pages\\CalendarPage.xaml.cs",
+              "ToolTip": "C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\TaskProjectWPF\\Pages\\CalendarPage.xaml.cs",
+              "RelativeToolTip": "TaskProjectWPF\\Pages\\CalendarPage.xaml.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAACUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T14:47:18.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Shedule.cs",
+              "DocumentMoniker": "C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\TaskProjectWPF\\Models\\Shedule.cs",
+              "RelativeDocumentMoniker": "TaskProjectWPF\\Models\\Shedule.cs",
+              "ToolTip": "C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\TaskProjectWPF\\Models\\Shedule.cs",
+              "RelativeToolTip": "TaskProjectWPF\\Models\\Shedule.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T14:47:05.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "app_cal_icon.png - PNG [12x12, 32-\u0440\u0430\u0437\u0440\u044F\u0434\u043D\u043E\u0435, PNG]",
+              "DocumentMoniker": "C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\TaskProjectWPF\\Images\\app_cal_icon.png",
+              "RelativeDocumentMoniker": "TaskProjectWPF\\Images\\app_cal_icon.png",
+              "ToolTip": "C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\TaskProjectWPF\\Images\\app_cal_icon.png - PNG [12x12, 32-\u0440\u0430\u0437\u0440\u044F\u0434\u043D\u043E\u0435, PNG]",
+              "RelativeToolTip": "TaskProjectWPF\\Images\\app_cal_icon.png - PNG [12x12, 32-\u0440\u0430\u0437\u0440\u044F\u0434\u043D\u043E\u0435, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-04-18T12:15:35.696Z",
+              "EditorCaption": " - PNG [12x12, 32-\u0440\u0430\u0437\u0440\u044F\u0434\u043D\u043E\u0435, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "app_cal_icon.svg",
+              "DocumentMoniker": "C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\TaskProjectWPF\\Images\\app_cal_icon.svg",
+              "RelativeDocumentMoniker": "TaskProjectWPF\\Images\\app_cal_icon.svg",
+              "ToolTip": "C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\TaskProjectWPF\\Images\\app_cal_icon.svg",
+              "RelativeToolTip": "TaskProjectWPF\\Images\\app_cal_icon.svg",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAABdAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKTSURBVDhPjVNLSFRRGP7unTsz9w75uOaMZlMNpo1aFFJRodRGN7UwatMiKgga3JgVRBSNSA8RooUFLRycCCpc9ITIFi0EW\u002BhCW/gONYUcxplsQL13nKv3dM6ZGV\u002BE9N37c\u002B455/\u002B\u002B/7s/5whYA7/fP5L63BSCIDxvbGxsAiEktZQEE6Brm6K1tXWS5TU0NNQyjsiZKQgCBgBChQ2Q\u002BfswpytgDLmg9zihD9XBNJfhcrlstPoeqlVPRS6uCBDy1broLnN29PkxPeaFFmpC79gOdEu9sB8KQRt\u002Bz/NUVbUGAoGpJIfc5j2gZIuv3fam/sCNGrdjGLGwE23hR\u002BiMeBCKAbXlOTgfr0VW9QfqD4iEZ5BIJNAWDI5yB75X0tXqwrc1JZk90MKVUEq/4UplFc4W5UKwiHjaO4tx90NWiYfT5cQuj4dRITLrZfn9104XtOD3\u002BE4z7/BrqIoKZ4YM37E8XNifA4vdiuCIApPzWY9Wmy9h6UfOpd13t89FstEceyF2PJlAfNHkm6y6xSbxcTASpyuMyFT4NoeI6PV6mzEvvIy0oO\u002BXPVGULaMs186jVLVil0zzF\u002BI4ki\u002BnqjP\u002BGgemrp0Z\u002BHn8T0d0nyrOTky\u002B8x0tNoxE0iZrcSqXz5lAcroCcXkeBcGpyzcnowRTDk9xoDuEmbkE5vRlfB6cRcWzIXibv\u002BNTf5ST0y7SEBa6MGIaOFje2VUnZSgPTFECMZM9YCeLde6cdwvuVLlXrVMFWXGAHqRRaUlDezyEic6tlbFBbW/oS8nHbf0RDZIooDDLipPeTJwozIJJH4EIoG/y1/6Fe/5bj6lFousa0WjoWjoWiLYhGNidWHcXDNhOsVGWFSg0ZCUdDigbIo11Zv73Oq8C\u002BAsr5V2IWWNA0gAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-04-18T12:15:22.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\TaskProjectWPF\\Pages\\TaskPage.xaml.cs",
+              "RelativeDocumentMoniker": "TaskProjectWPF\\Pages\\TaskPage.xaml.cs",
+              "ToolTip": "C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\TaskProjectWPF\\Pages\\TaskPage.xaml.cs",
+              "RelativeToolTip": "TaskProjectWPF\\Pages\\TaskPage.xaml.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAuwCYAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T10:04:03.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\TaskProjectWPF\\App.xaml.cs",
+              "RelativeDocumentMoniker": "TaskProjectWPF\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\TaskProjectWPF\\App.xaml.cs",
+              "RelativeToolTip": "TaskProjectWPF\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T09:18:00.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TaskStatus.cs",
+              "DocumentMoniker": "C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\TaskProjectWPF\\Models\\Partials\\TaskStatus.cs",
+              "RelativeDocumentMoniker": "TaskProjectWPF\\Models\\Partials\\TaskStatus.cs",
+              "ToolTip": "C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\TaskProjectWPF\\Models\\Partials\\TaskStatus.cs",
+              "RelativeToolTip": "TaskProjectWPF\\Models\\Partials\\TaskStatus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T08:58:15.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\TaskProjectWPF\\Models\\Comment.cs",
+              "RelativeDocumentMoniker": "TaskProjectWPF\\Models\\Comment.cs",
+              "ToolTip": "C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\TaskProjectWPF\\Models\\Comment.cs",
+              "RelativeToolTip": "TaskProjectWPF\\Models\\Comment.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T08:20:38.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LinkTask.cs",
+              "DocumentMoniker": "C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\TaskProjectWPF\\Models\\LinkTask.cs",
+              "RelativeDocumentMoniker": "TaskProjectWPF\\Models\\LinkTask.cs",
+              "ToolTip": "C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\TaskProjectWPF\\Models\\LinkTask.cs",
+              "RelativeToolTip": "TaskProjectWPF\\Models\\LinkTask.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T08:20:30.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\TaskProjectWPF\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "TaskProjectWPF\\Models\\Role.cs",
+              "ToolTip": "C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\TaskProjectWPF\\Models\\Role.cs",
+              "RelativeToolTip": "TaskProjectWPF\\Models\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T08:19:53.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\TaskProjectWPF\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "TaskProjectWPF\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\TaskProjectWPF\\Models\\Employee.cs",
+              "RelativeToolTip": "TaskProjectWPF\\Models\\Employee.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAkwBsAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T08:19:09.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TaskStatus.cs",
+              "DocumentMoniker": "C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\TaskProjectWPF\\Models\\TaskStatus.cs",
+              "RelativeDocumentMoniker": "TaskProjectWPF\\Models\\TaskStatus.cs",
+              "ToolTip": "C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\TaskProjectWPF\\Models\\TaskStatus.cs",
+              "RelativeToolTip": "TaskProjectWPF\\Models\\TaskStatus.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T08:18:02.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\TaskProjectWPF\\Models\\Project.cs",
+              "RelativeDocumentMoniker": "TaskProjectWPF\\Models\\Project.cs",
+              "ToolTip": "C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\TaskProjectWPF\\Models\\Project.cs",
+              "RelativeToolTip": "TaskProjectWPF\\Models\\Project.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAzwDAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T08:17:46.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\TaskProjectWPF\\packages.config",
+              "RelativeDocumentMoniker": "TaskProjectWPF\\packages.config",
+              "ToolTip": "C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\TaskProjectWPF\\packages.config",
+              "RelativeToolTip": "TaskProjectWPF\\packages.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-04-17T15:40:32.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DataInit.cs",
+              "DocumentMoniker": "C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\TaskProjectWPF\\Service\\DataInit.cs",
+              "RelativeDocumentMoniker": "TaskProjectWPF\\Service\\DataInit.cs",
+              "ToolTip": "C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\TaskProjectWPF\\Service\\DataInit.cs",
+              "RelativeToolTip": "TaskProjectWPF\\Service\\DataInit.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwAwAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T15:24:45.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NetManager.cs",
+              "DocumentMoniker": "C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\TaskProjectWPF\\Service\\NetManager.cs",
+              "RelativeDocumentMoniker": "TaskProjectWPF\\Service\\NetManager.cs",
+              "ToolTip": "C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\TaskProjectWPF\\Service\\NetManager.cs",
+              "RelativeToolTip": "TaskProjectWPF\\Service\\NetManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T15:14:09.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CalendarPage.xaml",
+              "DocumentMoniker": "C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\TaskProjectWPF\\Pages\\CalendarPage.xaml",
+              "RelativeDocumentMoniker": "TaskProjectWPF\\Pages\\CalendarPage.xaml",
+              "ToolTip": "C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\TaskProjectWPF\\Pages\\CalendarPage.xaml",
+              "RelativeToolTip": "TaskProjectWPF\\Pages\\CalendarPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-17T15:13:30.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DashboardPage.xaml",
+              "DocumentMoniker": "C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\TaskProjectWPF\\Pages\\DashboardPage.xaml",
+              "RelativeDocumentMoniker": "TaskProjectWPF\\Pages\\DashboardPage.xaml",
+              "ToolTip": "C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\TaskProjectWPF\\Pages\\DashboardPage.xaml",
+              "RelativeToolTip": "TaskProjectWPF\\Pages\\DashboardPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-17T15:13:13.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TaskPage.xaml",
+              "DocumentMoniker": "C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\TaskProjectWPF\\Pages\\TaskPage.xaml",
+              "RelativeDocumentMoniker": "TaskProjectWPF\\Pages\\TaskPage.xaml",
+              "ToolTip": "C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\TaskProjectWPF\\Pages\\TaskPage.xaml",
+              "RelativeToolTip": "TaskProjectWPF\\Pages\\TaskPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-17T15:12:56.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\TaskProjectWPF\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "TaskProjectWPF\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\TaskProjectWPF\\MainWindow.xaml",
+              "RelativeToolTip": "TaskProjectWPF\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-17T14:22:38.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\TaskProjectWPF\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TaskProjectWPF\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\3D\\Desktop\\ProjectsTasks\\TaskProjectWPF\\TaskProjectWPF\\MainWindow.xaml.cs",
+              "RelativeToolTip": "TaskProjectWPF\\MainWindow.xaml.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAxwCQAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T14:22:37.792Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
