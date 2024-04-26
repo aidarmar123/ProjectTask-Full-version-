@@ -28,41 +28,59 @@ namespace TaskProjectWPF
 
         public MainWindow()
         {
-            InitializeComponent();  
+            InitializeComponent();
             App.contextProject = DataInit.Projects.First();
-            MainFrame.Navigate(new TestDragDrop());
+            //MainFrame.Navigate(new TestDragDrop());
             Refresh();
         }
 
         private void Refresh()
         {
             LBProject.ItemsSource = DataInit.Projects
-                .OrderByDescending(t=>t.Id)
+                .OrderByDescending(t => t.Id)
                 .Take(5);
         }
 
         private void BCalendar_Click(object sender, RoutedEventArgs e)
         {
             MainFrame.Navigate(new CalendarPage());
+            
         }
 
         private void BTasks_Click(object sender, RoutedEventArgs e)
         {
             MainFrame.Navigate(new TaskPage());
+           
         }
 
         private void BDashboard_Click(object sender, RoutedEventArgs e)
         {
             MainFrame.Navigate(new DashboardPage());
+           
+
         }
 
         private void LBProject_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            if(LBProject.SelectedItem is Project project)
+            if (LBProject.SelectedItem is Project project)
             {
                 App.contextProject = project;
-                
-                
+                var contextPage = MainFrame.Content as Page;
+                if (contextPage is DashboardPage)
+                {
+                    MainFrame.Navigate(new DashboardPage());
+                }
+                else if (contextPage is TaskPage)
+                {
+                    MainFrame.Navigate(new TaskPage());
+
+                }
+                else if (contextPage is CalendarPage)
+                {
+                    MainFrame.Navigate(new CalendarPage());
+                }
+
+
             }
         }
     }

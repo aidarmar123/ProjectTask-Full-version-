@@ -41,7 +41,7 @@
                 Value="20" />
         </Style>
     </Page.Resources>
-    <Grid>
+    <Grid x:Name="myGrid">
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
             <RowDefinition />
@@ -86,6 +86,7 @@
                     Source="/Images/app_next_icon.png" />
             </Button>
         </StackPanel>
+        
         <Button
             x:Name="BAddData"
             Click="BAddData_Click"

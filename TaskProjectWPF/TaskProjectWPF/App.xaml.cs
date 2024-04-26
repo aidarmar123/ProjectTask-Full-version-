@@ -5,6 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Controls;
 using TaskProjectWPF.Models;
 using TaskProjectWPF.Service;
 
@@ -17,6 +18,7 @@ namespace TaskProjectWPF
     {
 
         public static Project contextProject;
+
         public  App()
         {
             DataInit.DataInitAllList();

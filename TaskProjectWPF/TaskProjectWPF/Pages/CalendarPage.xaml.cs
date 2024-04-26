@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Drawing.Printing;
 using System.Globalization;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -42,25 +43,25 @@ namespace TaskProjectWPF.Pages
             CreateGrid();
             RefreshGridContent();
 
-          
+
         }
 
-       
+
         private void RefreshDate(int countDay)
         {
-            DateStart=DateStart.AddDays(countDay);
-            DateEnd=DateEnd.AddDays(countDay);
+            DateStart = DateStart.AddDays(countDay);
+            DateEnd = DateEnd.AddDays(countDay);
             SPHeader.DataContext = null;
             SPHeader.DataContext = this;
-            
+
             RefreshGridContent();
             RefreshContent();
         }
         private void RefreshContent()
         {
-            var tasks = DataInit.Tasks.Where(t => t.StartActualTimeNotNull >= DateStart 
-                                                  && t.StartActualTimeNotNull <= DateEnd 
-                                                  && t.ProjectId==App.contextProject.Id)
+            var tasks = DataInit.Tasks.Where(t => t.StartActualTimeNotNull >= DateStart
+                                                  && t.StartActualTimeNotNull <= DateEnd
+                                                  && t.ProjectId == App.contextProject.Id)
                                                   .ToList();
             foreach (var task in tasks)
             {
@@ -136,24 +137,24 @@ namespace TaskProjectWPF.Pages
             Grid.SetColumnSpan(line, 10);
             Grid.SetRow(line, 24 - DateTime.Now.Hour);
             Content.Children.Add(line);
-            
-           
+
+
         }
 
         private void CreateGrid()
         {
-            
+
             for (int i = 24; i >= 0; i--)
             {
                 Content.RowDefinitions.Add(new RowDefinition());
-             
+
             }
-            
+
 
             for (int i = DateStart.Day - 1; i < DateEnd.Day + 1; i++)
             {
                 Content.ColumnDefinitions.Add(new ColumnDefinition());
-               
+
             }
         }
 
@@ -162,7 +163,7 @@ namespace TaskProjectWPF.Pages
             Content.Children.Clear();
             for (int i = 24; i >= 0; i--)
             {
-                
+
                 if (24 - i != 0)
                 {
                     var time = new TextBlock();
@@ -175,13 +176,13 @@ namespace TaskProjectWPF.Pages
                     Content.Children.Add(time);
                 }
             }
-            for (int i = 0; i <= DateEnd.Day - DateStart.Day+1; i++)
+            for (int i = 0; i <= DateEnd.Day - DateStart.Day + 1; i++)
             {
                 if (i != 0)
                 {
 
                     var day = new TextBlock();
-                    var date = DateStart.AddDays(i-1);
+                    var date = DateStart.AddDays(i - 1);
                     var month = CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(date.Month);
                     day.Text = $"{date.Day} {month}";
                     day.HorizontalAlignment = HorizontalAlignment.Center;
@@ -204,7 +205,7 @@ namespace TaskProjectWPF.Pages
 
         private async void BAddData_Click(object sender, RoutedEventArgs e)
         {
-            var openDialog = new OpenFileDialog() { Filter=".xlsx | *.xlsx"};
+            var openDialog = new OpenFileDialog() { Filter = ".xlsx | *.xlsx" };
             if (openDialog.ShowDialog().GetValueOrDefault())
             {
                 var file = openDialog.FileName;
@@ -215,25 +216,42 @@ namespace TaskProjectWPF.Pages
                 int rows = excelRange.Rows.Count;
                 for (int i = 2; i <= rows; i++)
                 {
-                    
-                        var task = new Models.Task();
-                        task.ProjectId = App.contextProject.Id;
-                        task.ShortTitle = excelRange.Cells[i, 1].Value.ToString();
-                        task.FullTitle = excelRange.Cells[i, 2].Text;
-                        task.Decription = excelRange.Cells[i, 3].Text;
-                        task.ExecutiveEmployeeId = int.Parse(excelRange.Cells[i, 4].Value.ToString());
 
-                        task.StatusId = int.Parse(excelRange.Cells[i, 7].Text);
-                        task.CreatedTime = Convert.ToDateTime(excelRange.Cells[i, 8].Value.ToString());
-                        task.UpdatedTime = Convert.ToDateTime(excelRange.Cells[i, 9].Value.ToString());
-                        //task.DeletedTime = Convert.ToDateTime(excelRange.Cells[i, 10].Value.ToString());
-                        task.StartActualTime = Convert.ToDateTime(excelRange.Cells[i, 14].Value.ToString());
-                        task.FinishActualTime = Convert.ToDateTime(excelRange.Cells[i, 15].Value.ToString());
-                        task.Deadline = Convert.ToDateTime(excelRange.Cells[i, 12].Value.ToString());
-                        await NetManager.PostData(task, "api/Tasks");
-                    
+                    var task = new Models.Task();
+                    task.ProjectId = App.contextProject.Id;
+                    task.ShortTitle = excelRange.Cells[i, 1].Value.ToString();
+                    task.FullTitle = excelRange.Cells[i, 2].Text;
+                    task.Decription = excelRange.Cells[i, 3].Text;
+                    task.ExecutiveEmployeeId = int.Parse(excelRange.Cells[i, 4].Value.ToString());
+
+                    task.StatusId = int.Parse(excelRange.Cells[i, 7].Text);
+                    task.CreatedTime = Convert.ToDateTime(excelRange.Cells[i, 8].Value.ToString());
+                    task.UpdatedTime = Convert.ToDateTime(excelRange.Cells[i, 9].Value.ToString());
+                    //task.DeletedTime = Convert.ToDateTime(excelRange.Cells[i, 10].Value.ToString());
+                    task.StartActualTime = Convert.ToDateTime(excelRange.Cells[i, 14].Value.ToString());
+                    task.FinishActualTime = Convert.ToDateTime(excelRange.Cells[i, 15].Value.ToString());
+                    task.Deadline = Convert.ToDateTime(excelRange.Cells[i, 12].Value.ToString());
+                    await NetManager.PostData(task, "api/Tasks");
+
                 }
             }
         }
+
+        //private void Screen_Click(object sender, RoutedEventArgs e)
+        //{
+        //    var dialog = new SaveFileDialog() { Filter = ".jpeg | *.jpeg" };
+        //    if (dialog.ShowDialog().GetValueOrDefault())
+        //    {
+        //        RenderTargetBitmap render = new RenderTargetBitmap((int)myGrid.ActualWidth, (int)myGrid.ActualHeight,96,96, PixelFormats.Pbgra32);
+        //        render.Render(myGrid);
+        //        var encoder = new PngBitmapEncoder();
+        //        encoder.Frames.Add(BitmapFrame.Create(render));
+        //        using (var stream = new FileStream(dialog.FileName, FileMode.Create))
+        //        {
+        //            encoder.Save(stream);
+
+        //        }
+        //    }
+        //}
     }
 }

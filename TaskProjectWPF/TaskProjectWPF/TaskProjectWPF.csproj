@@ -76,6 +76,7 @@
     <Compile Include="Models\Comment.cs" />
     <Compile Include="Models\Employee.cs" />
     <Compile Include="Models\LinkTask.cs" />
+    <Compile Include="Models\Partials\Employee.cs" />
     <Compile Include="Models\Partials\Project.cs" />
     <Compile Include="Models\Partials\Task.cs" />
     <Compile Include="Models\Partials\TaskStatus.cs" />
